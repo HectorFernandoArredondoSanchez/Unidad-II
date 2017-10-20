@@ -1,0 +1,6 @@
+gastos_operacion.py
+setup.py
+gastos_operacion.egg-info/PKG-INFO
+gastos_operacion.egg-info/SOURCES.txt
+gastos_operacion.egg-info/dependency_links.txt
+gastos_operacion.egg-info/top_level.txt

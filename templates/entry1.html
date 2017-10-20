@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<form method='POST' action='/calculate2'>
+<table>
+<p>Ingresa los valores correspondientes</p>
+    <tr><td>Gastos ventas:</td><td><input name='gastos_ventas' type='TEXT' width='60'></td></tr>
+    <tr><td>Gastos de Administración:</td><td><input name='gastos_admon' type='TEXT' width='60'></td></tr>
+    <tr><td>Gastos:</td><td><input name='gastos' type='TEXT' width='60'></td></tr>
+    <tr><td>Productos Finiancieros:</td><td><input name='productos_finian' type='TEXT' width='60'></td></tr>
+
+</table>
+<p>Presiona el boton</p>
+<p><input value='Calcular' type='SUBMIT'></p>
+</form>
+    <p><a href="/home">De vuelta a inicio</a>
+{% endblock %}

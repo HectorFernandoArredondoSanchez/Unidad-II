@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+<h2>{{ the_title }}</h2>
+<form method='POST' action='/calculate'>
+<table>
+<p>Usa este formulario para calcular la utilidad bruta:</p>
+<tr><td>Utilidad bruta</td><td><input name="utilidad_bruta" type='TEXT' width='60'></td></tr>
+<tr><td>Gastos de operación</td><td><input name='gastos_de_operacion' type='TEXT' ></td></tr>
+</table>
+<p>Presiona el boton cuano estes listo:</p>
+<p><input value='Calcular!' type='SUBMIT'></p>
+</form>
+<p><a href="/home">De vuelta a inicio</a>
+{% endblock %}
